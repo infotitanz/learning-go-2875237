@@ -1,9 +1,9 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func main() {
-	fmt.Println("Hello from Go!")
+	aString := "Hello from Go!"
+	anInt := 42
+	fmt.Println(aString, "\nVariable Type:", fmt.Sprintf("%T", aString), "\nVariable Type:", fmt.Sprintf("%T", anInt))
 }
